@@ -1,0 +1,27 @@
+  *{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  nav{
+    display: flex;
+    gap:20px;
+    background:black;
+    padding:20px;
+  }
+  nav a, nav button{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    color:white;
+    padding:5px 15px;
+    text-decoration: none;
+  }
+  nav a:hover,  nav button:hover{
+    color:rgb(213, 186, 149)
+  }
+  nav a.active{
+    background:burlywood
+  }
+
+  
